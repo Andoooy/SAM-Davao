@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_course"
+        android:letterSpacing="-0.02"
+        android:textSize="30sp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/etCourseName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/grey"
+        android:hint="@string/course_name"
+        android:singleLine="true"
+        android:background="@drawable/input_field2" />
+
+    <EditText
+        android:id="@+id/etCourseDescription"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/input_field2"
+        android:hint="@string/course_description"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/medium"
+        android:text="@string/add"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_blue"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tvCancel"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/medium"
+        android:text="@string/cancel"
+        android:textSize="15sp"
+        android:textColor="@color/yellow"
+        android:textAllCaps="false"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

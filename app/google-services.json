@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "133773994149",
+    "firebase_url": "https://samdvo-87a7a.firebaseio.com",
+    "project_id": "samdvo-87a7a",
+    "storage_bucket": "samdvo-87a7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133773994149:android:22af0a6a4fe79653d6454c",
+        "android_client_info": {
+          "package_name": "samdvo.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133773994149-bf8kgvn37qc07j42igv6fshb5in43qub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "samdvo.com",
+            "certificate_hash": "43f14a3e8bf3e75e7a0ed0403349778bbdb98835"
+          }
+        },
+        {
+          "client_id": "133773994149-lo71s3ua8kl0il57n16dugthm41qqt13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoXW4B3qC2jMbArUm20DwFlbbNidQ-aE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133773994149-lo71s3ua8kl0il57n16dugthm41qqt13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

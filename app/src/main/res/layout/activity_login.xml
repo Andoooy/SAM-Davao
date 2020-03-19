@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/heavy"
+                android:gravity="right"
+                android:layout_weight=".5"
+                android:layout_marginTop="190dp"
+                android:paddingRight="10dp"
+                android:text="@string/sam"
+                android:letterSpacing="-0.07"
+                android:textColor="@color/yellow"
+                android:textSize="45sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/heavy"
+                android:layout_weight=".5"
+                android:layout_marginTop="190dp"
+                android:text="@string/dvo"
+                android:letterSpacing="-0.07"
+                android:textColor="@color/white"
+                android:textSize="45sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/medium"
+            android:layout_marginTop="-5dp"
+            android:text="@string/stiam"
+            android:textColor="@color/light_blue"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/etUsername"
+            android:layout_gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:textColorHint="@color/grey"
+            android:hint="@string/user"
+            android:singleLine="true"
+            android:background="@drawable/input_field"/>
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/etPassword"
+            android:layout_gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/grey"
+            android:hint="@string/pass"
+            android:singleLine="true"
+            android:background="@drawable/input_field" />
+
+        <Button
+            android:layout_width="162dp"
+            android:layout_height="45dp"
+            android:id="@+id/btnLogin"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/medium"
+            android:text="@string/button"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_yellow"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/medium"
+            android:gravity="bottom"
+            android:padding="20dp"
+            android:text="@string/footer"
+            android:textColor="@color/light_blue"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
